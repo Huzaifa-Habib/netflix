@@ -64,7 +64,7 @@ body{
 
 .email-title{
     font-size: 19.2px ; 
-    line-height: 60px;
+    /* line-height: 60px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -372,6 +372,9 @@ body{
 
 /* End of footer */
 
+
+
+/* For desktops */
 @media screen and (max-width:950px) {
     .tv-sec{
         flex-direction: column;
@@ -475,7 +478,7 @@ body{
 
 
 
-
+/* For laptops */
 @media screen and (max-width:750px) {
     .head-middle .input-group{
         display: flex;
@@ -530,7 +533,7 @@ body{
 
 
 
-
+/* For tablets */
 @media screen and (max-width:620px) { 
 
     .head-middle .input-group{
@@ -590,8 +593,123 @@ body{
         
     }
 
+     .kids-image img{
+        width: 300px;
+        height: 300px;
+    }
+    .fourth-col{
+        display: none;
+    }
+
     
     
+}
+
+
+
+/* For mobiles */
+
+@media screen and (max-width:480px) {
+    .tv img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .tv{
+        width: 200px;
+    }
+
+    #mob-img{
+        width: 250px;
+        height: 200px;
+        
+    }
+    .box{
+        padding: 2px;
+        margin-top: 150px;
+        margin-left: 0px;
+        height: 80px;
+        width: 83%;
+
+
+    }
+
+    .box-title{
+        font-size: 14px;
+    }
+
+    
+    .input-group {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .input-group button{
+        margin-left: auto !important;
+        margin-right: auto;
+        width: 60% !important; 
+        font-size: 18px;
+        height: 50px;
+
+    }
+
+    .netflix-devices{
+        padding: 0;
+        margin-top: 40px;
+    }
+
+
+    h1{
+        font-size: 25px !important;
+    }
+
+    h3{
+        font-size: 18px !important;
+        font-weight: normal !important;
+    }
+
+    .kids-image img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .become-member .input-group{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+
+    }
+
+    .become-member .input-group button{
+        margin-left: auto !important;
+        margin-right: auto;
+        width: 60%;
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .third-col{
+        display: none;
+    }
+
+    .fourth-col{
+        display: none;
+    }
+
+    .nav img{
+        width: 100px;
+    }
+
+    .nav button{
+        width: 30%;
+        padding: 0;
+
+    }
+
+
+
 }
 
 
